@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Pitch-inspired palette: deep pitch green instead of the generic
+     near-black-plus-neon-accent look. The gold ties directly to Marko's
+     story as a team captain (captain's armband). */
+  --color-pitch-950: #0a1a12;
+  --color-pitch-900: #0f2419;
+  --color-pitch-800: #163828;
+  --color-pitch-700: #1f4a35;
+  --color-chalk: #f2f1ea;
+  --color-chalk-dim: #b9c4bb;
+  --color-gold: #d1a954;
+  --color-gold-bright: #e8c877;
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: var(--color-pitch-950);
+  color: var(--color-chalk);
+  font-family: var(--font-body);
+}
+
+/* Subtle pitch-line texture in the background, echoes the football motif
+   without being literal or distracting. */
+.pitch-texture {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 79px,
+      rgba(242, 241, 234, 0.035) 79px,
+      rgba(242, 241, 234, 0.035) 80px
+    );
+}
