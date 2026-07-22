@@ -19,6 +19,15 @@ const projects: Project[] = [
     github: "https://github.com/markostojanovic03/zentrax-shop",
   },
   {
+    fixture: "FIFA 21 Player Statistics Analysis",
+    competition: "Coursework — Probability & Statistics",
+    result: "Analysis complete",
+    formation: ["Python", "Pandas", "NumPy", "scikit-learn", "Matplotlib", "Seaborn", "SciPy"],
+    summary:
+      "Statistical analysis of nearly 19,000 professional footballers: descriptive statistics, correlation analysis, a linear regression model relating player rating to market value, and a 95% confidence interval for mean overall rating.",
+    github: "https://github.com/markostojanovic03/fifa-player-statistics",
+  },
+  {
     fixture: "Task Manager — Full Stack",
     competition: "Personal Project",
     result: "Shipped end-to-end",
