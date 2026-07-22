@@ -2,7 +2,7 @@
 
 Personal portfolio site built with React, TypeScript, and Tailwind CSS.
 
-**Live:** _add link here once deployed_
+**Live:** https://portfolio-chi-smoky-74.vercel.app/
 
 ## Design concept
 
