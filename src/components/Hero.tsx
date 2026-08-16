@@ -22,9 +22,9 @@ export default function Hero() {
         </h1>
 
         <p className="mt-8 text-xl md:text-2xl text-chalk-dim max-w-xl leading-relaxed">
-          Software Engineering student. Former professional footballer and team
-          captain, now building full-stack web applications with the same
-          discipline.
+          Software Engineering student. Former professional footballer, now
+          building full-stack web applications with the same discipline and
+          work ethic.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4 font-[var(--font-mono)] text-sm">
