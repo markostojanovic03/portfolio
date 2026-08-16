@@ -28,14 +28,14 @@ export default function About() {
         </p>
 
         <p className="text-lg md:text-xl leading-relaxed text-chalk-dim max-w-2xl">
-          I spent my teenage years captaining every youth team I played for and
-          competing professionally before a knee injury ended that path in 2023.
-          I brought the same habits — showing up consistently, sweating the
-          details, and trusting a process longer than it's comfortable to — into
-          software engineering. I'm currently a second-year Software Engineering
-          student who builds full-stack projects for the same reason I used to
-          study match footage: to get slightly better than yesterday.
-        </p>
+          I spent my teenage years competing professionally before a knee injury
+          ended that path in 2023. I brought the same habits — showing up
+          consistently, sweating the details, and trusting a process longer than
+          it's comfortable to — into software engineering. I'm currently a
+          third-year Software Engineering student who builds full-stack projects
+          for the same reason I used to study match footage: to get slightly
+          better than yesterday.
+         </p>
 
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-chalk/10">
           {timeline.map((item) => (
